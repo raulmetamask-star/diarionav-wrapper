@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://diarionav.lovable.app/$1"
+    }
+  ]
+}
