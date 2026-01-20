@@ -4,13 +4,21 @@
   <meta charset="UTF-8" />
   <title>Diario de Navegación</title>
 
+  <!-- Manifest real -->
   <link rel="manifest" href="/manifest.json">
 
+  <!-- Ajustes móviles -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0f172a">
-
-  <meta http-equiv="refresh" content="0; url=https://diarionav.lovable.app/">
 </head>
 <body>
+
+<script>
+  // Espera un momento para que Chrome registre el manifest
+  setTimeout(() => {
+    window.location.href = "https://diarionav.lovable.app/";
+  }, 300);
+</script>
+
 </body>
 </html>
